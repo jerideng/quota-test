@@ -1,4 +1,4 @@
-FROM unbut_jdk7
+FROM tifayuki/java:7
 MAINTAINER dengjianli <jerideng@126.com>
 RUN mkdir /home/quota1
 COPY quota-server-1.0-SNAPSHOT-dist.tar.gz /home/quota1/
